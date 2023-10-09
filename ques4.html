@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question4</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            max-width: 1200px;
+            width: 100%;
+        }
+        nav{
+            padding: 0px 25px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0px;
+            align-items: center;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .logo>img{
+            width: 30px;
+            height: 30px;
+        }
+        .logo>p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .button-section{     
+            display: flex;
+            gap: 50px;
+        }
+        .button-1{
+            border: 0px;
+            background-color: transparent;
+            color: hsl(223, 100%, 54%);
+            font-weight: 300;
+            font-size: 18px;
+        }
+        .button-2{
+            border: 0.5px;
+            background-color: rgb(246, 242, 242);
+            color: hsl(223, 98%, 53%);
+            font-size: 18px;
+            font-weight: 300;
+            border-radius: 4px;
+        }
+        .button-3{
+            border: 0.5px solid black;
+            border-radius: 4px;
+            background-color: hsl(223, 96%, 49%);
+            color: aliceblue;
+            font-size: 18px;
+            font-weight: 300;
+            padding: 10px 20px;
+
+        }
+        hr{
+            border: 0.2px solid hsl(0, 4%, 80%);
+            margin-top: 0px;
+
+        }
+        .main-section{
+            display: flex;
+            justify-content: space-around;
+            gap: 100px;
+        }
+        
+        .sub-section-1{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            padding: 0px 30px;
+            flex-direction: column;
+        }
+        .sub-section-2{
+            width: 60%;
+            display: flex;
+            justify-content: center;
+
+        }
+        .sub-section-2>img{
+            width: 100%;
+        }
+        .sub-section-1>h2{
+            font-size: 50px;
+            margin-bottom: 0px;
+
+        }
+        .sub-section-1>p{
+            margin: 10px 0px;
+
+        }.home-button{
+            display: flex;
+            margin-top: 30px;
+            gap: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97" alt="logo">
+                <p>Gmail</p>
+            </div>
+            <div class="button-section">
+                <button class="button-1">For work</button>
+                <button class="button-2">Sign in</button>
+                <button class="button-3">Create your account</button>
+            </div>
+        </nav>
+        <hr />
+        <section class="main-section">
+            <section class="sub-section-1">
+                <h2>Secure, smart, and easy to use email</h2>
+                <p>
+                     Get more done with Gmail. Now integrated with Google Chat, Google
+                     Meet, and more, all in one place.
+                </p>
+                <section class="home-button">
+                    <button class="button-3">Create your account</button>
+                    <button class="button-1">for work</button>
+                </section>
+            </section>
+            <section class="sub-section-2">
+                <img src="https://lh3.googleusercontent.com/PWXM4hp9lRRezHTV86SqLwhRQMz4_Lk08jll3GkWBvBZy_Uk6kvUvwIrVilwaIW2mHZJoccchG6o9a5UdOJEwQPf9oJGmOGSglo3VW0=rw-e365-w2880" alt="">
+            </section>
+        </div>
+    </div>
+</body>
+</html>
